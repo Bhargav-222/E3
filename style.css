@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#outerbox{
+    background-color: rgb(41, 213, 156);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("clock.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#innerbox{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(18, 180, 153);
+    backdrop-filter: blur(5px);
+    background-color:hsla(hue, saturation, lightness, 0.1);
+    width: 100%;
+}
